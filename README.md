@@ -77,27 +77,4 @@ http://127.0.0.1:5000
 
 ---
 
-## ⚠ Note
-
-This uses Flask’s development server.  
-Do not use this setup for production deployment.
-
----
-
-## 👨‍💻 Author
-
-Your Name Here
-
----
-
-## 📌 Future Improvements
-
-- Add score tracking
-- Add CSS styling
-- Add animations
-- Add multiplayer mode
-- Deploy to cloud (Render / Heroku)
-
----
-
 Enjoy playing! 🎉
