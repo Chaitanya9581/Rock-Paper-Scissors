@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Rock Paper Scissors</title>
+</head>
+<body style="text-align:center; font-family:Arial;">
+
+    <h1>Rock Paper Scissors Game</h1>
+
+    <form method="POST">
+        <button type="submit" name="choice" value="rock">Rock</button>
+        <button type="submit" name="choice" value="paper">Paper</button>
+        <button type="submit" name="choice" value="scissors">Scissors</button>
+    </form>
+
+    {% if result %}
+        <h2>You chose: {{ player_choice }}</h2>
+        <h2>Computer chose: {{ computer_choice }}</h2>
+        <h2>{{ result }}</h2>
+    {% endif %}
+
+</body>
+</html>
